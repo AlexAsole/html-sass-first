@@ -5,11 +5,14 @@
 }
 
 .container {
-  width: 100vw;
-  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: roboto;
 }
 .container .title {
   color: #d2691e;
+  margin: 15px;
 }
 .container .navbar {
   width: 100%;
@@ -24,4 +27,9 @@
 .container .navbar-list li {
   margin: 35px 35px 0 0;
   color: #d2691e;
+}
+.container .content {
+  width: 100%;
+  height: calc(100% - 90px);
+  margin-top: 15px;
 }
